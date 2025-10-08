@@ -35,11 +35,11 @@ def menu():
             graficar_resultados(resultados)
 
         elif opcion == "5":
-            print("👋 Saliendo del sistema...")
+            print("Saliendo del sistema...")
             break
 
         else:
-            print("⚠️ Opción inválida, intenta de nuevo.")
+            print("Opción inválida, intenta de nuevo.")
 
 if __name__ == "__main__":
     menu()

@@ -44,7 +44,7 @@ def crear_ticket(usuario, problema, categoria):
     conn.commit()
     conn.close()
 
-    print(f"✅ Ticket creado con prioridad {prioridad}")
+    print(f"Ticket creado con prioridad {prioridad}")
 
 def mostrar_tickets():
     conn = sqlite3.connect(DB_PATH)
@@ -54,7 +54,7 @@ def mostrar_tickets():
     conn.close()
 
     if not registros:
-        print("⚠️ No hay tickets registrados.")
+        print("No hay tickets registrados.")
     else:
         print("\n--- LISTA DE TICKETS ---")
         for t in registros:

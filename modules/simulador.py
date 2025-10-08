@@ -3,7 +3,7 @@ import time
 import matplotlib.pyplot as plt
 
 def simular_big_bang():
-    print("\n🚀 Estrategia: Big Bang")
+    print("\nEstrategia: Big Bang")
     print("Desplegando toda la nueva versión de una sola vez...")
 
     time.sleep(1)
@@ -18,14 +18,14 @@ def simular_big_bang():
     print(f"→ Satisfacción del usuario: {satisfaccion:.2f}%")
 
     if riesgo > 80:
-        print("⚠️ Error crítico detectado, realizando rollback automático...")
+        print("Error crítico detectado, realizando rollback automático...")
         print("Rollback completado. Versión anterior restaurada.\n")
 
     return {"estrategia": "Big Bang", "riesgo": riesgo, "tiempo": tiempo, "uptime": uptime, "satisfaccion": satisfaccion}
 
 
 def simular_faseado():
-    print("\n⚙️ Estrategia: Faseado")
+    print("\nEstrategia: Faseado")
     print("Desplegando por grupos o módulos de forma progresiva...")
 
     time.sleep(1)
@@ -43,7 +43,7 @@ def simular_faseado():
 
 
 def simular_blue_green():
-    print("\n🟢 Estrategia: Blue-Green")
+    print("\nEstrategia: Blue-Green")
     print("Manteniendo dos entornos: Blue (actual) y Green (nuevo)...")
 
     time.sleep(1)
@@ -61,7 +61,7 @@ def simular_blue_green():
 
 
 def comparar_resultados(resultados):
-    print("📊 Comparativo General de Estrategias:\n")
+    print("Comparativo General de Estrategias:\n")
     print(f"{'Estrategia':<12} {'Riesgo':<10} {'Tiempo(h)':<10} {'Uptime(%)':<12} {'Satisfacción(%)'}")
     print("-" * 60)
     for r in resultados:
